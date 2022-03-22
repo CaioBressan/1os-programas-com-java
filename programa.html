@@ -2,27 +2,24 @@
 
 <script>
 
+function pulaLinha() {
+
+    document.write("<br>");
+    document.write("<br>");
+}
+
 var ano = 2016;
 
     document.write("Flávio tem " + (ano - 1977) + " anos");
-    document.write("<br>");
+    
+    pulaLinha();
+    
     document.write("Joaquim tem " + (ano- 1996) + " anos");
-    document.write("<br>");
-   
+    
+    pulaLinha();
+
+    
     ano = 2017;
     document.write("Barney tem " + (ano - 1976) + " anos");
-    document.write("<br>");
     
-    var idadeFlavio = 39;
-    var idadeJoaquin = 20;
-    var idadeBArney = 41;
-    var media = (idadeFlavio + idadeJoaquin + idadeBArney ) / 3 ;
-
-    document.write(" A média das idades é " + Math.round(media));
-    document.write("<br>");
-
-var nome = "Flavio";
-
-document.write("A idade de " + nome + " é " + idadeFlavio);
-
 </script>
