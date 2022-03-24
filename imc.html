@@ -19,18 +19,12 @@
         return peso / (altura * altura);
     }
 
-    var imcCaio = calculaImc(1.71,73,);
-    var imcAmigo = calculaImc(1.72,68);
-    var totalImc = imcCaio + imcAmigo;
-    var media = imcCaio + imcAmigo;
-
-    mostra("A soma dos imcs é " + Math.round(media) + "<br>");
     var nome = prompt("Digite seu nome");
     var alturaInformada = prompt(nome + ",Informe sua altura");
     var pesoInformado = prompt(nome + ",Informe seu peso");
 
     var imc = calculaImc(alturaInformada,pesoInformado);
 
-    mostra(nome+ ",o seu IMC é " + imc);
+    mostra(nome+ ", o seu IMC é " + Math.round(imc));
     
 </script>
